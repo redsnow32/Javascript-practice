@@ -19,3 +19,12 @@ function fun2() {
     output += " oopsGlobal: " + oopsGlobal;
   }
   console.log(output);
+
+  --------------------------------------------------------------------------
+
+  var processed = (0);
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+processed = processArg(7);
