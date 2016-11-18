@@ -28,3 +28,17 @@ function processArg(num) {
   return (num + 3) / 5;
 }
 processed = processArg(7);
+
+--------------------------------------------------------------------------------------
+if (number==2)
+  {
+    return 2;
+  }
+else if (nubmer==5)
+  {
+    return 5;
+  }
+else if (number==4)
+  {
+    return 8;
+  }
