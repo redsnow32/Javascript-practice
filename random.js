@@ -47,7 +47,7 @@ else if (number==4)
 
 
 function testSize(num) {
-  // Only change code below this line
+
   if (num < 5 ) {
     return "Tiny";
   }
@@ -72,7 +72,7 @@ testSize(7);
 
 
 function golfScore(par, strokes) {
-  // Only change code below this line
+
   if (strokes ==1) {
     return "Hole-in-one!";
   }
@@ -107,7 +107,7 @@ golfScore(4, 9);
 ----------------------------------------------------------------------------------------------------------------------
 function caseInSwitch(val) {
   var answer = "";
-  // Only change code below this line
+
   switch (val) {
     case 1:
       answer = "alpha";
@@ -125,7 +125,90 @@ function caseInSwitch(val) {
       answer = "delta";
       break;
   }
-   
+  return answer;
 }
 
 caseInSwitch(1);
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+function switchOfStuff(val) {
+  var answer = "";
+
+  switch (val) {
+
+    case "a":
+    return "apple";
+      break;
+
+    case "b":
+      return "bird";
+      break;
+
+    case "c":
+      return "cat";
+      break;
+
+
+    default:
+      return "stuff";
+              }
+
+  return answer;
+}
+
+switchOfStuff(1);
+
+---------------------------------------------------------------------------------------------------------------------
+
+function sequentialSizes(val) {
+  var answer = "";
+
+  switch (val){
+    case 1:
+    case 2:
+    case 3:
+        return "Low";
+      case 4:
+      case 5:
+      case 6:
+        return "Mid";
+      case 7:
+      case 8:
+      case 9:
+        return "High";
+  }
+
+  return answer;
+}
+
+sequentialSizes(1);
+
+---------------------------------------------------------------------------------------------------------------------
+
+function chainToSwitch(val) {
+  var answer = "";
+
+  switch (val) {
+    case ("bob"):
+    answer = "Marley";
+    break;
+
+    case  42:
+    answer = "The Answer";
+      break;
+    case  1:
+    answer = "There is no #1";
+      break;
+    case 99:
+    answer = "Missed me by this much!";
+      break;
+    case 7:
+    answer = "Ate Nine";
+  }
+
+  return answer;
+}
+
+chainToSwitch(7);
