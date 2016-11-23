@@ -258,4 +258,14 @@ function cc(card) {
 
   ---------------------------------------------------------------------------------------------------------------------
 
-  
+  var count = 0;
+
+function cc(card) {
+  var HighCards = [2, 3, 4, 5, 6];
+  var ZeroCards = [7, 8, 9];
+  var MinusCards = [10,'J','Q','K','A'];
+
+  count += (HighCards.indexOf(card) != -1) ? 1 : (ZeroCards.indexOf(card) != -1 ) ? 0 : -1;
+
+  return count + ((count > 0) ? ' Bet':' Hold');
+}
