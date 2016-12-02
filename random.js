@@ -416,3 +416,57 @@ var myDog = {
 
  phoneticLookup("charlie");
  --------------------------------------------------------------------------------------------------------------------
+
+ var myObj = {
+   gift: "pony",
+   pet: "kitten",
+   bed: "sleigh"
+ };
+
+ function checkObj(checkProp) {
+
+  return (myObj.hasOwnProperty(checkProp) ? myObj[checkProp] : "Not Found");}
+
+
+ checkObj("gift");
+
+ --------------------------------------------------------------------------------------------------------------------
+
+ var myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CS",
+      "8T",
+      "LP" ],
+    "gold": true
+  },
+
+ { "artist":"System of a Down",
+    "title": "hypnotise",
+  "release_year":1999,
+  "formats":[
+      "CD",
+      "MP3"
+  ],
+}
+];
+
+--------------------------------------------------------------------------------------------------------------------
+
+var myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+
+var gloveBoxContents = myStorage.car.inside["glove box"];
