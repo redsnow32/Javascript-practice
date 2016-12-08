@@ -469,7 +469,7 @@ var myStorage = {
 };
 
 
-var gloveBoxContents = myStorage.car.inside["glove box"];
+var gloveBoxContents = myStorage.car.inside["passanger seat"];
 
 --------------------------------------------------------------------------------------------------------------------
 
