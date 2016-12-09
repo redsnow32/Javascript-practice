@@ -546,3 +546,12 @@ function updateRecords(id, prop, value) {
 }
 
 updateRecords(5439, "artist", "ABBA");
+
+--------------------------------------------------------------------------------------------------------------------
+
+var myArray = [];
+
+for (var i = 1; i < 6; i ++ ) {
+  myArray.push(i);
+
+}
