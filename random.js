@@ -623,7 +623,7 @@ function lookUpProfile(firstName, prop){
 return "No such contact";
 }
 
-lookUpProfile("Akira", "likes");
+lookUpProfile("Harry", "likes");
 
 
 --------------------------------------------------------------------------------------------------------------------
