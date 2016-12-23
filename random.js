@@ -653,3 +653,13 @@ function randomRange(myMin, myMax) {
 var myRandom = randomRange(1, 150);
 
 --------------------------------------------------------------------------------------------------------------------
+var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it.";
+
+var expressionToGetSoftware = /software/gi;
+var softwareCount = testString.match(expressionToGetSoftware).length;
+
+
+var expression = /and/gi;
+
+var andCount = testString.match(expression).length;
+--------------------------------------------------------------------------------------------------------------------
