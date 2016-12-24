@@ -670,3 +670,17 @@ var expression = /\d+/g;
 var digitCount = testString.match(expression).length;
 
 --------------------------------------------------------------------------------------------------------------------
+var testString = "How many spaces are there in this sentence?";
+
+
+var expression = /\s+/g;
+
+var spaceCount = testString.match(expression).length;
+--------------------------------------------------------------------------------------------------------------------
+var testString = "How many non-space characters are there in this sentence?";
+
+
+var expression = /\S/g;
+
+var nonSpaceCount = testString.match(expression).length;
+--------------------------------------------------------------------------------------------------------------------
