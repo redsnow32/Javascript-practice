@@ -663,3 +663,10 @@ var expression = /and/gi;
 
 var andCount = testString.match(expression).length;
 --------------------------------------------------------------------------------------------------------------------
+var testString = "There are 3 cats but 4 dogs.";
+
+var expression = /\d+/g;
+
+var digitCount = testString.match(expression).length;
+
+--------------------------------------------------------------------------------------------------------------------
