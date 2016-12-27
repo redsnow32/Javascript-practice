@@ -684,3 +684,16 @@ var expression = /\S/g;
 
 var nonSpaceCount = testString.match(expression).length;
 --------------------------------------------------------------------------------------------------------------------
+
+var car = {
+  "wheels":4,
+  "engines":1,
+  "seats":5
+};
+
+var motorBike = {
+  "engines":1,
+  "wheels":2,
+  "seats":1
+
+};
